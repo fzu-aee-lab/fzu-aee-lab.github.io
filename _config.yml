@@ -1,14 +1,14 @@
 # 网站名称、简介和联系方式可在此修改。
-# 已按 DAN66666/aee_lab 配置；更换账号或仓库名时同步修改 url/baseurl/repository。
+# GitHub Pages 根站点由 fzu-aee-lab 组织的 fzu-aee-lab.github.io 仓库发布。
 locale: zh-CN
 title: AEE-Lab
 subtitle: 汽车能源电子实验室
 name: AEE-Lab
 description: 专注单片机与嵌入式方向，在软硬件之间探索、实践与创造。
-url: "https://dan66666.github.io"
-baseurl: "/aee_lab"
-copyright_url: "https://dan66666.github.io/aee_lab/"
-repository: "DAN66666/aee_lab"
+url: "https://fzu-aee-lab.github.io"
+baseurl: ""
+copyright_url: "https://fzu-aee-lab.github.io/"
+repository: "fzu-aee-lab/fzu-aee-lab.github.io"
 
 remote_theme: mmistakes/minimal-mistakes@4.28.1
 minimal_mistakes_skin: default

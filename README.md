@@ -61,11 +61,11 @@ excerpt: "一句话摘要。"
 
 源码准备完成不等于已经上线。发布后才会有你的正式访问地址。
 
-1. 使用 **DAN66666** 账号下的 **aee_lab** 公开仓库，默认分支为 **main**。本项目已按该账号和仓库名配置。
+1. 使用 **fzu-aee-lab** 组织下的 **fzu-aee-lab.github.io** 公开仓库，默认分支为 **main**。
 2. 上传本目录中的网站源码，保留隐藏的 `.github` 目录及其中的 `workflows/pages.yml`。不要上传 `_site`、`vendor`、原网站的数据库、备份 JSON、账号资料或密钥。
 3. 在 **Settings → Pages → Build and deployment → Source** 中选择 **GitHub Actions**。
 4. 检查 **Actions** 中构建和部署是否成功。正式网址以仓库 **Settings → Pages** 显示的地址为准。
-5. 本项目预计访问地址为 `https://dan66666.github.io/aee_lab/`，仅在部署成功后可用。如更换账号或仓库名，请同步修改 `_config.yml` 中的 `url`、`baseurl` 和 `repository`；根域名网站的 `baseurl` 为空。
+5. 部署成功后，打开 `https://fzu-aee-lab.github.io/`。这是组织的根站点，`_config.yml` 中的 `baseurl` 保持为空。
 
 ## 本地预览
 
