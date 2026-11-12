@@ -3,28 +3,44 @@
 # - name: 成员姓名
 #   role: 硕士研究生
 #   category: 硕士研究生
+#   bachelor_school: 本科院校
+#   master_school: 硕士院校（博士研究生填写）
+#   email: name@example.com
 #   direction: 研究方向
 #   bio: 个人简介
 #   image: /assets/images/members/姓名.jpg
 #   status: 在读
 #   graduation_year: ""
 - name: 夏华荣
+  role: 校聘教授、硕士生导师
   category: 负责人
-  
+  email: hrxia@fzu.edu.cn
+  direction: 储能电化学与人工智能
+  bio: |
+    任职于福州大学机械工程及自动化学院新能源与车辆工程系。先后获得华中科技大学应用物理学学士学位、北京大学物理电子学博士学位，曾在南洋理工大学开展博士后研究。研究内容涵盖超快充电池、储能体系设计，以及耐热冲击电解质和器件。
+
+    [学院主页](https://jxxy.fzu.edu.cn/info/1366/11633.htm)
+
 - name: 刘文兴
-  role: 研究生
-  category: 研究生
+  role: 硕士研究生
+  category: 硕士研究生
   graduation_year: "2026"
+  bachelor_school: 重庆交通大学
+  email: 3251830546@qq.com
   image: /assets/images/liuwenxing.jpg
 
 - name: 施春旭
-  role: 研究生
-  category: 研究生
+  role: 硕士研究生
+  category: 硕士研究生
   graduation_year: "2026"
+  bachelor_school: 青岛理工大学
+  email: 2549182717@qq.com
   image: /assets/images/shichunxu.jpg
 
 - name: 纪有涛
-  role: 研究生
-  category: 研究生
+  role: 硕士研究生
+  category: 硕士研究生
   graduation_year: "2026"
+  bachelor_school: 山东理工大学
+  email: 1604297408@qq.com
   image: /assets/images/jiyoutao.jpg

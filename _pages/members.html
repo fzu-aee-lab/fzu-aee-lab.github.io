@@ -14,6 +14,9 @@ permalink: /members/
     <div>
       <h3>{{ member.name | escape }}</h3>
       {% if member.role %}<p class="lab-member-role">{{ member.role | escape }}{% if member.status %} · {{ member.status | escape }}{% endif %}{% if member.graduation_year and member.graduation_year != empty %} · {{ member.graduation_year | escape }} 届{% endif %}</p>{% endif %}
+      {% if member.bachelor_school and member.bachelor_school != empty %}<p><strong>本科院校：</strong>{{ member.bachelor_school | escape }}</p>{% endif %}
+      {% if member.master_school and member.master_school != empty %}<p><strong>硕士院校：</strong>{{ member.master_school | escape }}</p>{% endif %}
+      {% if member.email and member.email != empty %}<p class="lab-member-email"><strong>邮箱：</strong><a href="mailto:{{ member.email | escape }}">{{ member.email | escape }}</a></p>{% endif %}
       {% if member.direction and member.direction != empty %}<p><strong>研究方向：</strong>{{ member.direction | escape }}</p>{% endif %}
       {% if member.bio and member.bio != empty %}{{ member.bio | markdownify }}{% endif %}
     </div>

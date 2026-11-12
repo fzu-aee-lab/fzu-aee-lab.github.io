@@ -33,14 +33,14 @@ author:
   links:
     - label: 联系我们
       icon: fas fa-fw fa-envelope
-      url: mailto:liuwenxinghjh@163.com
+      url: mailto:hrxia@fzu.edu.cn
 
 footer:
   since: "2026"
   links:
     - label: 联系我们
       icon: fas fa-fw fa-envelope
-      url: mailto:liuwenxinghjh@163.com
+      url: mailto:hrxia@fzu.edu.cn
 
 include:
   - _pages

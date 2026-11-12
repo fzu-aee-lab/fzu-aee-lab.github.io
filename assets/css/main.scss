@@ -50,6 +50,8 @@ body { -webkit-font-smoothing: antialiased; }
 .page__content .lab-member h3 { margin-top: 0; }
 .page__content .lab-member p { font-size: 0.85em; margin-bottom: 0.5em; }
 .lab-member-role { color: #637781; }
+.lab-member > div { min-width: 0; flex: 1; }
+.lab-member-email a { overflow-wrap: anywhere; }
 .lab-project { padding-bottom: 1.3em; margin-bottom: 1.5em; border-bottom: 1px solid #e7ebed; }
 .lab-project > img { max-height: 320px; width: 100%; object-fit: cover; border-radius: 4px; }
 .lab-publications li { padding-left: 0.3em; margin-bottom: 1.8em; }
