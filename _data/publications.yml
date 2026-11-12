@@ -5,4 +5,39 @@
 #   year: 2026
 #   url: https://doi.org/真实DOI
 #   pdf: /assets/pdf/论文.pdf
-[]
+# 来源于夏华荣 Google Scholar 主页，导入年份为2026年及以后。
+- title: "Correction to “An Electronically Coupled Interfacial Energy Descriptor for Predicting Coulombic Efficiency in Aqueous Zinc Batteries”"
+  authors: "Yuwei Cao, Song Yuan, Jiaqi Wei, Shengkai Cao, Huarong Xia, Bao Jin, Yang Hang, Tianyi Wang, Yuying Wang, Hao Chen, Wanlin Guo, Xian Jun Loh, Lin Jiang, Xiaodong Chen"
+  venue: "Journal of the American Chemical Society 148(37), 40580–40581"
+  year: 2026
+  url: "https://doi.org/10.1021/jacs.6c17322"
+
+- title: "Extreme-Fast-Charging Li-Ion Batteries via Activation-Energy Regulation With a Li₃PO₄-Li₂SO₄-Rich Solid Electrolyte Interphase"
+  authors: "Wenfeng Mao, Huarong Xia, Feng Pei, Zhipeng Hu, Liya Cai, Xiangbo Tang, Guo Ai, Xian Jun Loh, Xiaodong Chen, Xiangdong Huang"
+  venue: "Advanced Materials 38(62), e75045"
+  year: 2026
+  url: "https://doi.org/10.1002/adma.75045"
+
+- title: "An Electronically Coupled Interfacial Energy Descriptor for Predicting Coulombic Efficiency in Aqueous Zinc Batteries"
+  authors: "Yuwei Cao, Song Yuan, Jiaqi Wei, Shengkai Cao, Huarong Xia, Bao Jin, Yang Hang, Tianyi Wang, Yuying Wang, Hao Chen, Wanlin Guo, Xian Jun Loh, Lin Jiang, Xiaodong Chen"
+  venue: "Journal of the American Chemical Society 148(32), 34364–34372"
+  year: 2026
+  url: "https://doi.org/10.1021/jacs.6c08057"
+
+- title: "Demethylation of Fluorine-Free Ethers to Reconcile Li⁺ Transport Kinetics and Oxidation Stability"
+  authors: "Shengkai Cao, Song Yuan, Fu Lun Tan, Lixun Chen, Zhenxiang Xing, Jiaqi Wei, Lei Ye, Huarong Xia, Yuwei Cao, Ning-Yu Huang, Huaqing Zhang, Qiang Zhu, Xian Jun Loh, Xiaodong Chen"
+  venue: "Journal of the American Chemical Society 148(18), 18827–18838"
+  year: 2026
+  url: "https://doi.org/10.1021/jacs.6c00214"
+
+- title: "Electrochemomics Profiling Metabolic Dynamics in Biofluids"
+  authors: "Jianwu Wang, Huarong Xia, Chenyan Huang, Qianyun Deng, Ting Wang, Pingqiang Cai, Xiao Li, Xiaopei Chi, Wei Peng Goh, Yahui Liu, Chenyao Nie, Feilong Zhang, Changxian Wang, Jing Yu, Zhisheng Lv, Xiaoshi Wang, Rayner Bao Feng Ng, Jinwei Cao, Youquan Fu, Junqi Yi, Xian Jun Loh, Daniel Mandler, Bing Gu, Yan Wei, Xiaodong Chen"
+  venue: "Journal of the American Chemical Society 148(8), 8264–8275"
+  year: 2026
+  url: "https://doi.org/10.1021/jacs.5c18235"
+
+- title: "High-Entropy Materials Chemistry for Electrochemical Energy Storage"
+  authors: "Song Yuan, Jiaqi Wei, Zhuoran Ma, Xi Chen, Shengkai Cao, Lei Ye, Ning-Yu Huang, Huarong Xia, Fu Lun Tan, Rayner Bao Feng Ng, Xian Jun Loh, Shuzhou Li, Xue Feng, Xiaodong Chen"
+  venue: "Chemical Reviews 126(3), 2218–2282"
+  year: 2026
+  url: "https://doi.org/10.1021/acs.chemrev.5c00783"
