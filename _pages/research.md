@@ -3,7 +3,7 @@ title: 研究方向
 permalink: /research/
 ---
 
-我们围绕单片机与嵌入式方向开展学习、研究与项目实践。
+我们围绕以下三个方向开展研究与项目实践。
 
 {% for direction in site.data.lab.directions %}
 <section class="lab-direction" id="direction-{{ forloop.index }}">

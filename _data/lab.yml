@@ -2,21 +2,21 @@
 name: AEE-Lab
 subtitle: 汽车能源电子实验室
 headline: 欢迎来到 AEE-Lab
-description: 专注单片机与嵌入式方向，在软硬件之间探索、实践与创造。
+description: 聚焦新概念电池设计与制造、电池管理系统软硬件开发及电池新技术产业化应用。
 about: |
-  AEE-Lab 是一个聚焦单片机与嵌入式方向的实验室。
+  AEE-Lab（汽车能源电子实验室）围绕电池材料与器件、管理系统软硬件，以及新技术的产业化应用开展研究。
 
-  这里记录我们的研究探索、项目实践与技术积累，也让每一位对嵌入式世界感兴趣的朋友，更好地认识我们。
+  这里记录我们的研究探索、项目实践与技术积累，也让关注新能源电池与储能技术的朋友更好地认识我们。
 email: hrxia@fzu.edu.cn
 address: 福州大学车辆工程实验楼
-recruitment: 欢迎对单片机与嵌入式方向感兴趣的朋友关注 AEE-Lab。具体加入方式及合作信息将后续更新。
+recruitment: 欢迎对电池设计制造、电池管理系统与产业化应用感兴趣的朋友关注 AEE-Lab。具体加入方式及合作信息将后续更新。
 directions:
-  - title: 单片机
-    description: 围绕单片机开展学习、研究与实践。
+  - title: 新概念电池设计与制造
+    description: 面向热安全的耐火电解质与高安全电池、极速快充电池核心技术
+    icon: fas fa-battery-full
+  - title: 电池管理系统软硬件开发
+    description: 面向能量优化管理的专用集成电路、电池智能状态估计算法与闭环管控体系
     icon: fas fa-microchip
-  - title: 嵌入式系统
-    description: 关注嵌入式方向，探索软硬件协同的可能。
-    icon: fas fa-code
-  - title: 急速快充电池
-    description: ""
-    icon: fas fa-bolt
+  - title: 电池新技术产业化应用
+    description: 高性能动力电池系统集成、新型储能装备开发与工程落地。
+    icon: fas fa-industry
