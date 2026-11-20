@@ -12,14 +12,15 @@
 #   status: 在读
 #   graduation_year: ""
 - name: 夏华荣
-  role: 校聘教授、硕士生导师
+  role: 教授、博士生导师
   category: 负责人
   email: hrxia@fzu.edu.cn
-  direction: 储能电化学与人工智能
+  image: /assets/images/members/huarong-xia.jpg
+  direction: 新概念电池材料与器件、智能电池管理系统
   bio: |
-    任职于福州大学机械工程及自动化学院新能源与车辆工程系。先后获得华中科技大学应用物理学学士学位、北京大学物理电子学博士学位，曾在南洋理工大学开展博士后研究。研究内容涵盖超快充电池、储能体系设计，以及耐热冲击电解质和器件。
+    福州大学机械工程及自动化学院新能源与车辆工程系教授、博士生导师，汽车能源电子实验室负责人。主要研究超快充电池、耐热冲击电解质，以及智能电池管理软硬件系统。
 
-    [学院主页](https://jxxy.fzu.edu.cn/info/1366/11633.htm)
+    [主页](/members/huarong-xia/)
 
 - name: 刘文兴
   role: 硕士研究生
