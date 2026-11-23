@@ -58,8 +58,13 @@ body { -webkit-font-smoothing: antialiased; }
 .lab-profile-header .lab-profile-portrait { display: block; width: 170px; max-width: 100%; height: auto; border-radius: 4px; }
 .page__content .lab-profile-header p { font-size: 0.9em; margin-bottom: 0.7em; }
 .lab-profile-header a { overflow-wrap: anywhere; }
-.lab-project { padding-bottom: 1.3em; margin-bottom: 1.5em; border-bottom: 1px solid #e7ebed; }
+.lab-project { padding-bottom: 1.5em; margin-bottom: 1.8em; border-bottom: 1px solid #e7ebed; }
 .lab-project > img { max-height: 320px; width: 100%; object-fit: cover; border-radius: 4px; }
+.lab-project-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1em; margin: 1.2em 0 0.5em; align-items: start; }
+.lab-project-media { margin: 0; }
+.lab-project-media--wide { grid-column: 1 / -1; }
+.lab-project-media img { display: block; width: 100%; height: auto; border-radius: 4px; border: 1px solid #e5ecee; }
+.page__content .lab-project-caption { font-size: 0.8em; color: #637781; text-align: center; margin: 0.45em 0 0; }
 .lab-publications li { padding-left: 0.3em; margin-bottom: 1.8em; }
 .page__content .lab-publications h3 { margin: 0 0 0.4em; font-size: 1em; line-height: 1.6; }
 .page__content .lab-publications p { font-size: 0.85em; margin: 0.2em 0; }
@@ -78,6 +83,7 @@ body { -webkit-font-smoothing: antialiased; }
   .lab-post-list li { gap: 0.7em; }
   .lab-member { gap: 0.8em; }
   .lab-member > img { width: 75px; height: 95px; }
+  .lab-project-gallery { grid-template-columns: 1fr; gap: 0.8em; }
 }
 
 @media (prefers-reduced-motion: reduce) {
