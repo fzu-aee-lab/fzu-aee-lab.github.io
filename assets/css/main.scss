@@ -60,6 +60,9 @@ body { -webkit-font-smoothing: antialiased; }
 .lab-profile-header a { overflow-wrap: anywhere; }
 .lab-project { padding-bottom: 1.3em; margin-bottom: 1.5em; border-bottom: 1px solid #e7ebed; }
 .lab-project > img { max-height: 320px; width: 100%; object-fit: cover; border-radius: 4px; }
+.page__content p > img { display: block; margin-left: auto; margin-right: auto; }
+.page__content p > img + em { display: block; margin-top: 0.45em; color: #637781; font-size: 0.85em; font-style: normal; text-align: center; }
+.page__content figure > figcaption { width: 100%; text-align: center; }
 .lab-publications li { padding-left: 0.3em; margin-bottom: 1.8em; }
 .page__content .lab-publications h3 { margin: 0 0 0.4em; font-size: 1em; line-height: 1.6; }
 .page__content .lab-publications p { font-size: 0.85em; margin: 0.2em 0; }
