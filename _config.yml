@@ -47,6 +47,11 @@ footer:
 include:
   - _pages
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:year/:month/:day/:title/
+
 exclude:
   - README.md
   - 使用说明.md
@@ -76,6 +81,16 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: false
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: true
