@@ -7,9 +7,22 @@ permalink: /projects/
 <div class="lab-projects">
   {% for project in site.data.projects %}
   <article class="lab-project">
-    {% if project.image and project.image != empty %}<img src="{{ project.image | relative_url }}" alt="{{ project.title | escape }}" loading="lazy">{% endif %}
-    <h2>{{ project.title | escape }}</h2>
+    {% if project.title and project.title != empty %}<h2>{{ project.title | escape }}</h2>{% endif %}
     {{ project.description | markdownify }}
+    {% if project.images and project.images.size > 0 %}
+    <div class="lab-project-gallery">
+      {% for item in project.images %}
+      {% assign img_src = item.src | default: item %}
+      {% assign img_alt = item.alt | default: project.title %}
+      <div class="lab-project-media{% if item.wide %} lab-project-media--wide{% endif %}">
+        <img src="{{ img_src | relative_url }}" alt="{{ img_alt | escape }}" loading="lazy">
+        {% if item.caption and item.caption != empty %}<p class="lab-project-caption">{{ item.caption | escape }}</p>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% elsif project.image and project.image != empty %}
+    <img src="{{ project.image | relative_url }}" alt="{{ project.title | escape }}" loading="lazy">
+    {% endif %}
     {% if project.url and project.url != empty %}<p><a href="{{ project.url }}">查看项目 <span aria-hidden="true">→</span></a></p>{% endif %}
   </article>
   {% endfor %}
