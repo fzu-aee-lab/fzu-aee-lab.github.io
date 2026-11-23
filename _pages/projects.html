@@ -3,30 +3,23 @@ title: 项目实践
 permalink: /projects/
 ---
 
-{% if site.data.projects.size > 0 %}
-<div class="lab-projects">
-  {% for project in site.data.projects %}
-  <article class="lab-project">
-    {% if project.title and project.title != empty %}<h2>{{ project.title | escape }}</h2>{% endif %}
-    {{ project.description | markdownify }}
-    {% if project.images and project.images.size > 0 %}
-    <div class="lab-project-gallery">
-      {% for item in project.images %}
-      {% assign img_src = item.src | default: item %}
-      {% assign img_alt = item.alt | default: project.title %}
-      <div class="lab-project-media{% if item.wide %} lab-project-media--wide{% endif %}">
-        <img src="{{ img_src | relative_url }}" alt="{{ img_alt | escape }}" loading="lazy">
-        {% if item.caption and item.caption != empty %}<p class="lab-project-caption">{{ item.caption | escape }}</p>{% endif %}
-      </div>
-      {% endfor %}
+{% assign project_posts = site.projects | sort: 'date' | reverse %}
+{% if project_posts.size > 0 %}
+{% assign posts_by_year = project_posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% for year in posts_by_year %}
+<h2>{{ year.name }}</h2>
+<ul class="lab-post-list">
+  {% for post in year.items %}
+  <li>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%Y.%m.%d' }}</time>
+    <div>
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      {% if post.excerpt %}<p class="lab-post-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>{% endif %}
     </div>
-    {% elsif project.image and project.image != empty %}
-    <img src="{{ project.image | relative_url }}" alt="{{ project.title | escape }}" loading="lazy">
-    {% endif %}
-    {% if project.url and project.url != empty %}<p><a href="{{ project.url }}">查看项目 <span aria-hidden="true">→</span></a></p>{% endif %}
-  </article>
+  </li>
   {% endfor %}
-</div>
+</ul>
+{% endfor %}
 {% else %}
 <p class="lab-empty">项目资料整理中，后续将在这里分享实验室的实践成果。</p>
 {% endif %}
