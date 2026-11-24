@@ -5,7 +5,7 @@
 #   year: 2026
 #   url: https://doi.org/真实DOI
 #   pdf: /assets/pdf/论文.pdf
-# 来源于夏华荣 Google Scholar 主页，导入年份为2026年及以后。
+# 来源于夏华荣 Google Scholar 主页，导入年份为2025年及以后。
 - title: "Correction to “An Electronically Coupled Interfacial Energy Descriptor for Predicting Coulombic Efficiency in Aqueous Zinc Batteries”"
   authors: "Yuwei Cao, Song Yuan, Jiaqi Wei, Shengkai Cao, Huarong Xia, Bao Jin, Yang Hang, Tianyi Wang, Yuying Wang, Hao Chen, Wanlin Guo, Xian Jun Loh, Lin Jiang, Xiaodong Chen"
   venue: "Journal of the American Chemical Society 148(37), 40580–40581"
@@ -41,3 +41,27 @@
   venue: "Chemical Reviews 126(3), 2218–2282"
   year: 2026
   url: "https://doi.org/10.1021/acs.chemrev.5c00783"
+
+- title: "Early Terminating Solid Electrolyte Interphase Formation via Nucleophilic Fluorination to Achieve High Initial Coulombic Efficiency"
+  authors: "Shengkai Cao, Song Yuan, Wei Zhang, Lixun Chen, Zhisheng Lv, Huarong Xia, Jiaqi Wei, Zhenxiang Xing, Xue Feng, Qiang Zhu, Xian Jun Loh, Xiaodong Chen"
+  venue: "Advanced Materials 37(38), 2508647"
+  year: 2025
+  url: "https://doi.org/10.1002/adma.202508647"
+
+- title: "Surface-Confined Disordered Hydrogen Bonds Enable Efficient Lithium Transport in All-Solid-State PEO-Based Lithium Battery"
+  authors: "You Fan, Oleksandr I Malyi, Huicai Wang, Xiangxin Cheng, Xiaobin Fu, Jingshu Wang, Haifeng Ke, Huarong Xia, Yanbin Shen, Zhengshuai Bai, Shi Chen, Huaiyu Shao, Xiaodong Chen, Yuxin Tang, Xiaojun Bao"
+  venue: "Angewandte Chemie International Edition 64(11), e202421777"
+  year: 2025
+  url: "https://doi.org/10.1002/anie.202421777"
+
+- title: "Stepwise Coordination Engineering of Pt₁/Au₂₅ Dual Catalytic Sites with Enhanced Electrochemical Activity and Stability"
+  authors: "Xiangyu Xiao, Pei-Hua Li, Liang Tang, Deli Wu, Huarong Xia, Zong-Yin Song, Yong-Huan Zhao, Bo Liang, Meng Yang, Rui Tang, Jingyi Yao, Xing-Jiu Huang, Xiaodong Chen, Zhendong Lei"
+  venue: "Advanced Materials 37(10), 2417900"
+  year: 2025
+  url: "https://doi.org/10.1002/adma.202417900"
+
+- title: "Anion-Modulated Solvation Sheath and Electric Double Layer Enabling Lithium-Ion Storage from −60 to 80 °C"
+  authors: "Song Yuan, Shengkai Cao, Xi Chen, Jiaqi Wei, Zhisheng Lv, Huarong Xia, Lixun Chen, Rayner Bao Feng Ng, Fu Lun Tan, Haicheng Li, Xian Jun Loh, Shuzhou Li, Xue Feng, Xiaodong Chen"
+  venue: "Journal of the American Chemical Society 147(5), 4089–4099"
+  year: 2025
+  url: "https://doi.org/10.1021/jacs.4c13011"
