@@ -23,6 +23,8 @@ body { -webkit-font-smoothing: antialiased; }
 .author__avatar img { background: #fff; border-radius: 0; border: 0; padding: 0.6em; }
 .author__bio { line-height: 1.6; }
 .author__bio .lab-name-en { font-size: 0.85em; line-height: 1.5; }
+.lab-sidebar-brand { margin-top: 1.35em; padding-top: 1.25em; border-top: 1px solid #e7ebed; }
+.lab-sidebar-brand img { display: block; width: 100%; max-width: 188px; height: auto; }
 .page__content { line-height: 1.9; }
 .page__title { letter-spacing: -0.025em; }
 .lab-kicker { color: #147d83; font-weight: 650; font-size: 0.85em; letter-spacing: 0.08em; margin-top: 0.2em; }
@@ -72,6 +74,8 @@ body { -webkit-font-smoothing: antialiased; }
 .page__footer { background: #f3f6f7; color: #61717a; }
 
 @media (max-width: 640px) {
+  .lab-sidebar-brand { margin-top: 0.8em; padding-top: 0.8em; }
+  .lab-sidebar-brand img { max-width: 150px; }
   .lab-profile-header { grid-template-columns: 1fr; gap: 1em; }
   .lab-profile-header .lab-profile-portrait { width: 150px; }
   .lab-research-grid { grid-template-columns: 1fr; gap: 0.7em; }
